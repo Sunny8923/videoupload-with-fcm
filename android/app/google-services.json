@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946982286549",
+    "project_id": "video-upload-with-fcm",
+    "storage_bucket": "video-upload-with-fcm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946982286549:android:68eb4a18c7b199da0e1e5c",
+        "android_client_info": {
+          "package_name": "com.example.video_upload_with_fcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFNHCtZbAz-qTx_McCo81pXWh5ovrdoiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
