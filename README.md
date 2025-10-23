@@ -1,16 +1,106 @@
-# video_upload_with_fcm
+# 🎥 Flutter Video Upload App with FCM Push Notifications
 
-A new Flutter project.
+A modern Flutter application demonstrating **video recording & upload**, **Firebase Cloud Messaging (FCM) push notifications**, and **secure authentication** — built with production-minded architecture.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+✅ **User Authentication** (Login / Registration)  
+✅ **FCM Push Notifications** (via Firebase Cloud Messaging)  
+✅ **Record & Upload Videos** (camera + file upload)  
+✅ **REST API Integration** (with Dio & custom backend)  
+✅ **State Management** using Riverpod  
+✅ **Secure Token Handling** (with Flutter Secure Storage)  
+✅ **Clean, Scalable Folder Structure**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Project Structure
+
+lib/
+│
+├── core/
+│ ├── services/ # API client, secure storage, etc.
+│ ├── utils/ # App routes, constants
+│ └── models/ # Common data models
+│
+├── features/
+│ ├── auth/ # Login & registration
+│ ├── home/ # Home screen + logout
+│ ├── video/ # Video recording & upload
+│ └── notifications/ # Push notification handling
+│
+└── main.dart # Entry point
+
+yaml
+Copy code
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | Flutter (Dart) |
+| State Management | Riverpod |
+| API Client | Dio |
+| Backend (for demo) | Node.js / Express |
+| Push Notifications | Firebase Cloud Messaging (FCM) |
+| Storage | Flutter Secure Storage + Firestore (optional) |
+
+---
+
+## ⚙️ Setup Instructions
+
+1️⃣ **Clone this repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+2️⃣ Install dependencies
+
+bash
+Copy code
+flutter pub get
+3️⃣ Set up Firebase
+
+Add your google-services.json (Android)
+
+Add your GoogleService-Info.plist (iOS)
+
+Enable FCM in Firebase Console
+
+4️⃣ Run the app
+
+bash
+Copy code
+flutter run
+🔐 Environment Variables (Example)
+If you use .env or config constants:
+
+env
+Copy code
+API_BASE_URL=https://your-api-url.com
+FCM_SERVER_KEY=your-fcm-server-key
+📸 Screenshots (optional)
+Add screenshots here for login, home, and video upload screens
+Example:
+
+
+🧑‍💻 Author
+Sunny
+💼 Flutter Developer
+🔗 GitHub Profile
+
+📝 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+⭐ Show Your Support
+If you found this project helpful, please consider giving it a ⭐ star on GitHub!
+
+yaml
+Copy code
+
+---
+
+Would you like me to make a **shorter version (1/3rd length)** if you want a simpler GitHub look for assig
