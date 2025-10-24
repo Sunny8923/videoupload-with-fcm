@@ -97,10 +97,3 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 ⭐ Show Your Support
 If you found this project helpful, please consider giving it a ⭐ star on GitHub!
-
-yaml
-Copy code
-
----
-
-Would you like me to make a **shorter version (1/3rd length)** if you want a simpler GitHub look for assig
