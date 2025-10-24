@@ -53,7 +53,6 @@ class HomeScreen extends ConsumerWidget {
                     )
                   : const Text('Logout'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.redAccent,
                 minimumSize: const Size.fromHeight(50),
               ),
               onPressed: isLoading ? null : () => homeVM.logout(context),
